@@ -1,7 +1,7 @@
 {
   "name": "specialkey-emulator-cli",
   "appId": "de.sidneys.specialkey-emulator-cli",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Emulate special keys from the command line.",
   "license": "MIT",
   "homepage": "https://github.com/sidneys/specialkey-emulator-cli",
@@ -45,7 +45,6 @@
   ],
   "preferGlobal": true,
   "dependencies": {
-    "@sidneys/logger": "^1.6.0",
     "app-root-path": "^2.1.0",
     "chalk": "^2.4.1",
     "indent-string": "^3.2.0",
