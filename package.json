@@ -1,0 +1,69 @@
+{
+  "name": "specialkey-emulator-cli",
+  "appId": "de.sidneys.specialkey-emulator-cli",
+  "version": "0.8.8",
+  "description": "Emulate special keys from the command line.",
+  "license": "MIT",
+  "homepage": "https://github.com/sidneys/specialkey-emulator-cli",
+  "author": {
+    "name": "sidneys",
+    "email": "sidneys.github.io@outlook.com",
+    "url": "https://sidneys.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidneys/specialkey-emulator-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sidneys/specialkey-emulator-cli/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "os": [
+    "darwin"
+  ],
+  "gypfile": true,
+  "keywords": [
+    "input",
+    "hid",
+    "keyboard",
+    "keypress",
+    "specialkey",
+    "mediakey",
+    "emulator",
+    "simulator",
+    "brightness",
+    "mute",
+    "volume",
+    "skip",
+    "playback",
+    "media",
+    "osx",
+    "mac",
+    "IOKit"
+  ],
+  "preferGlobal": true,
+  "dependencies": {
+    "@sidneys/logger": "^1.6.0",
+    "app-root-path": "^2.1.0",
+    "chalk": "^2.4.1",
+    "indent-string": "^3.2.0",
+    "minimist": "^1.2.0",
+    "pad": "^2.1.0",
+    "window-size": "^1.1.1",
+    "word-wrap": "^1.2.3",
+    "specialkey-emulator": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  },
+  "main": "./lib/main.js",
+  "bin": {
+    "specialkey-emulator-cli": "./lib/main.js"
+  },
+  "scripts": {
+    "docs": "./node_modules/.bin/jsdoc --verbose --configure .jsdoc.json",
+    "start": "node ./lib/main.js"
+  }
+}
